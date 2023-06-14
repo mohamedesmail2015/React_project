@@ -1,0 +1,89 @@
+.top-Navbar {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto condensed", sans-serif;
+  background-color: #ffffff;
+  box-shadow: 0 0 8px 0 #535252;
+}
+
+.top-Navbar .logo {
+  width: 200px;
+  height: 60px;
+  display: inline-block;
+}
+
+.form-search {
+  width: 100%;
+  border-radius: 0 !important;
+}
+
+.search {
+  font-size: 20px;
+  padding: 5px 5px 0;
+  color: #ffffff;
+  background-color: #af1e4a !important;
+  transition: all linear 0.3s !important;
+}
+
+.search:hover {
+  color: #ffffff;
+  background-color: green !important;
+}
+
+.cart-shopping {
+  padding: 5px 15px;
+  color: #ffffff;
+  border-radius: 20px !important;
+  background-color: #af1e4a !important;
+  border: 0.5px solid #af1e4a !important;
+  outline: none;
+  text-decoration: none;
+  transition: all linear 0.3s !important;
+}
+
+.cart-shopping:hover {
+  color: #ffffff;
+  background-color: green !important;
+  border: 0.5px solid green !important;
+}
+
+.heart-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+}
+
+.heart-icon:hover {
+  color: green;
+}
+
+.heart-icon i {
+  font-size: 25px;
+}
+
+.heart-icon span {
+  margin: 0 3px 7px 0;
+  padding: 2px 5px;
+  font-size: 13px;
+}
+
+.user-icon {
+  font-size: 18px;
+  color: #af1e4a;
+  margin: 0 15px 0 10px;
+  transition: all linear 0.3s !important;
+}
+
+.user-icon:hover {
+  font-size: 18px;
+  margin: 0 15px 0 10px;
+  color: green !important;
+}
+
+@media (max-width: 767px) {
+  .top-Navbar .logo {
+    width: fit-content;
+    height: 40px;
+  }
+}

@@ -1,0 +1,18 @@
+.accordionMenuDiv {
+  font-family: "Roboto Condensed", sans-serif !important;
+  font-weight: 300 !important;
+  height: 400px;
+  width: 100%;
+  border: 1px solid #af1e4a !important;
+}
+
+.accordionItem {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.accordionItem:hover {
+  color: #af1e4a !important;
+}
